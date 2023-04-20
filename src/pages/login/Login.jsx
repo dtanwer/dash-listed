@@ -32,7 +32,7 @@ export default function Login() {
               <label htmlFor="">Password</label>
               <input type="password" name="password"/>
               <p>Forgot password?</p>
-              <NavLink to='/dash'><button type="submit">Sign in</button></NavLink>
+              <NavLink to='/auth'><button type="submit">Sign in</button></NavLink>
               </form>
             </div>
             <div className='register'><p>Don't have an account? <span>Register here</span></p></div>
