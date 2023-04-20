@@ -31,7 +31,9 @@ const Mychart = () => {
       },
       legend: {
         show: true,
-        position:'top'
+        position:'top',
+        horizontalAlign:'right',
+        offsetY:"-50"
       },
       tooltip: {
         x: {
