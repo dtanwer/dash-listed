@@ -21,6 +21,7 @@ const Mychart = () => {
       chart: {
         type: "area",
         height: "20",
+        toolbar:{show:false},
         zoom: {
           enabled: false
         }
