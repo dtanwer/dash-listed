@@ -1,0 +1,70 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem;
+  height: 91%;
+  width: 13rem;
+  margin: 2rem;
+  border-radius: 3rem;
+  background-color:black;
+  line-height: 0.9rem;
+  .top {
+    height: 50px;
+    margin-top: 20px;
+
+    .logo {
+      margin-right: 4rem;
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .center {
+    padding-left: 1rem;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        padding:0.5rem;
+        line-height: 3rem;
+        cursor: pointer;
+
+        .icon {
+          font-size: 1.8rem;
+          color: white;
+        }
+
+        span{
+            font-size: 1.3rem;
+            font-weight: 600;
+            color:white;
+            margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  .bottom{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      justify-content: flex-end;
+      align-items:baseline;
+      margin: 1rem;
+      color: white;
+  }
+}
+
+
+@media (max-width:998px) {
+  .sidebar
+  {
+    height:100%;
+  }
+}
