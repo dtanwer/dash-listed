@@ -30,7 +30,7 @@ const Mychart = () => {
         enabled: false
       },
       legend: {
-        show: false
+        show: true
       },
       tooltip: {
         x: {
