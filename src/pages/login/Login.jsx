@@ -7,8 +7,8 @@ import {signInWithPopup} from "firebase/auth";
 
 export default function Login() {
   const navigate=useNavigate()
-    const handleClick =()=>{
-        signInWithPopup(auth,provider).then((data)=>{
+    const handleClick = async ()=>{
+        await signInWithPopup(auth,provider).then((data)=>{
             localStorage.setItem("email",data.user.email)
             navigate('/auth');
         })
